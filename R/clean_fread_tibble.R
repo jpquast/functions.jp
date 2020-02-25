@@ -14,7 +14,7 @@
 #'
 #' @examples
 #' \dontrun{
-#' clean_fread_tibble("folder\.filename")
+#' clean_fread_tibble("folder\filename")
 #' }
 clean_fread_tibble <-
 function(.filename, ...){

@@ -2,4 +2,5 @@
 
 export(clean_fread_tibble)
 export(median_normalisation)
+export(read_proteom_from_fasta)
 importFrom(magrittr,"%>%")

@@ -16,7 +16,7 @@
 #' }
 median_normalisation <-
 function(.data, .file_column_name, .intensity_column_name, na.rm = FALSE){
-  # define global variables to supress notes in function check
+  # define global variables to prevent notes in function check
   median_run_intensity <- median_intensity <- NULL
   # main function
   .data %>%

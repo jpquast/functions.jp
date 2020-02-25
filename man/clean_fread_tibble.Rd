@@ -22,6 +22,6 @@ To make names more r-friendly the \code{clean_names} function from the \code{jan
 }
 \examples{
 \dontrun{
-clean_fread_tibble("folder\.filename")
+clean_fread_tibble("folder\filename")
 }
 }

@@ -2,7 +2,7 @@
 % Please edit documentation in R/clean_fread_tibble.R
 \name{clean_fread_tibble}
 \alias{clean_fread_tibble}
-\title{Fast read, cleaning and conversion}
+\title{Read, clean and convert}
 \usage{
 clean_fread_tibble(.filename, ...)
 }
@@ -12,10 +12,13 @@ clean_fread_tibble(.filename, ...)
 \item{...}{Additional arguments for the fread function.}
 }
 \value{
-A data frame (with class tibble) that contains the content of the file.
+A data frame (with class tibble) that contains the content of the specified file.
 }
 \description{
-The functions uses data.tables fast \code{fread} function. The columns of the resulting data.table are made more r-friendly. In the end the data.table is converted to a tibble.
+The functions the very fast \code{fread} function form the \code{data.table} package. The columns of the resulting data table are made more r-friendly. In the end the data table is converted to a tibble.
+}
+\details{
+To make names more r-friendly the \code{clean_names} function from the \code{janitor} packege is used. It for example replaces "." and " " with "_" and converts names to lower case. This is the standard known as snake_case.
 }
 \examples{
 \dontrun{

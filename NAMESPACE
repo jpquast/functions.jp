@@ -2,7 +2,4 @@
 
 export(clean_fread_tibble)
 export(median_normalisation)
-import("data.table,")
-import("tidyverse,")
-import(janitor)
-import(tidyverse)
+importFrom(magrittr,"%>%")

@@ -4,10 +4,10 @@
 \alias{clean_fread_tibble}
 \title{Read, clean and convert}
 \usage{
-clean_fread_tibble(.filename, ...)
+clean_fread_tibble(filename, ...)
 }
 \arguments{
-\item{.filename}{The path to the file that should be imported.}
+\item{filename}{The path to the file that should be imported.}
 
 \item{...}{Additional arguments for the fread function.}
 }

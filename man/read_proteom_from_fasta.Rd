@@ -4,10 +4,10 @@
 \alias{read_proteom_from_fasta}
 \title{Read uniprot FASTA file}
 \usage{
-read_proteom_from_fasta(.filename)
+read_proteom_from_fasta(filename)
 }
 \arguments{
-\item{.filename}{The path to the FASTA file that should be imported.}
+\item{filename}{The path to the FASTA file that should be imported.}
 }
 \value{
 A data frame that contains a column with the uniprot ID and a column with the sequence of the protein.

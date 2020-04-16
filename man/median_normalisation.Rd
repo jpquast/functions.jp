@@ -5,18 +5,18 @@
 \title{Median normalisation}
 \usage{
 median_normalisation(
-  .data,
-  .file_column_name,
-  .intensity_column_name,
+  data,
+  file_column_name,
+  intensity_column_name,
   na.rm = FALSE
 )
 }
 \arguments{
-\item{.data}{A data frame containing at least sample names and intensity values.}
+\item{data}{A data frame containing at least sample names and intensity values.}
 
-\item{.file_column_name}{The name of the column containing the sample names.}
+\item{file_column_name}{The name of the column containing the sample names.}
 
-\item{.intensity_column_name}{The name of the column containing the intensity values.}
+\item{intensity_column_name}{The name of the column containing the intensity values.}
 
 \item{na.rm}{A logical indicating wther missing values should be removed.}
 }
